@@ -5,7 +5,6 @@ import { FiExternalLink } from "react-icons/fi";
 import Card from '../components/Card';
 
 
-
 const Home = () => {
   return (
     <div className='bg-[#181818] text-white'>

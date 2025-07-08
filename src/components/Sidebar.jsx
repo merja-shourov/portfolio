@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
     return (
-        <div className='sidebar w-[100px] h-screen bg-[#BB2649] text-white flex flex-col justify-between'>
+        <div className='sidebar w-[100px] h-screen bg-[#BB2649] text-white flex flex-col justify-between border-r-1'>
             <div className="logo w-[full] h-[100px]  flex flex-col justify-center items-center">
                 <h2 className='text-[20px] font-bold'>Merja.</h2>
             </div>
@@ -26,8 +26,8 @@ const Sidebar = () => {
                 </NavLink>
              
             </ul>
-            <div className="resume-button text-center w-[100%] h-[100px] text-sm">
-                <button className='bg-[#C54664] border-[white] border-2 shadow-lg rounded-sm hover:bg-[#BB2649] font-bold p-2'> Resume </button>
+            <div className="resume-button text-center w-[100%] h-[100px]">
+                <a href='#' className='bg-[#C54664] border-[white] border-1 shadow-lg uppercase text-sm rounded-sm hover:bg-[#BB2649] px-2 py-1 '> Resume </a>
             </div>
         </div>
     )
