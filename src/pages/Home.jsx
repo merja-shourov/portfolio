@@ -4,7 +4,7 @@ import { FiGithub } from "react-icons/fi";
 import { FiExternalLink } from "react-icons/fi";
 import Card from '../components/Card';
 
-
+import ClickButton from '../components/ClickButton';
 const Home = () => {
   return (
     <div className='bg-[#181818] text-white'>
@@ -16,16 +16,16 @@ const Home = () => {
           </div>
         </div>
         <div className="detail w-[50%] p-5">
-          <span className='uppercase text-sm text-[#ff396d]'>Hi, My name is</span>
-          <h2 className='text-[80px] font-bold'>Merja Shourov</h2>
-          <h4 className='text-3xl text-[#ff396d]'>Backend Developer & UI Designer</h4>
+          <span className='uppercase text-sm text-[#ff396d] font-bold'>Hi, My name is</span>
+          <h2 className='text-[72px] font-bold'>Merja Shourov</h2>
+          <h4 className='text-3xl text-[#ff396d] font-semibold'>Ful-Stack Developer (<span className='text-[var(--secoundery-text)]'>MERN</span>)</h4>
           <p className='text-md text-gray-400 mt-10 mb-5'>I'm a web developer and designer enthusiast focusing on Web, UI/UX and Interactive Design. Pixel perfect web design is my hobby.</p>
-          <button className='p-3 border-1 duration-500 border-[#ff396e]  bg-[#411C24] text-[#fff] hover:text-white hover:bg-transparent rounded-sm  text-sm shadow-md'>View my works</button>
+          <button className='px-5 py-3 border-1 duration-300 border-[#ff396e]  bg-[#451C25] text-[#fff]  rounded-sm  text-sm shadow-md hover:bg-[#301A1F]'>View my works</button>
         </div>
       </div>
 
       {/* feature area */}
-      <div className="featured-area p-30">
+      <div className="featured-area px-30 py-20">
         <div className="section-details mb-20">
           <span className='uppercase text-l text-[#ff396d] font-semibold'>Featured Works</span>
           <h1 className='text-[40px] font-bold'>My Valauabe Craft</h1>
@@ -49,7 +49,7 @@ const Home = () => {
               <button className='px-4 py-2 bg-[#301A1F] rounded-sm hover:bg-[#BA2649] duration-300'>Tailwind</button>
               <button className='px-4 py-2 bg-[#301A1F] rounded-sm hover:bg-[#BA2649] duration-300'>JavaScript</button>
             </div>
-            <a href="#" className='px-5 py-3 bg-[#301A1F] text-xl border border-[#BA2649] rounded-sm hover:bg-[black] duration-300'>View Porjects</a>
+            <a href="#" className='px-5 py-3 bg-[#301A1F] text-xl border border-[#BA2649] rounded-sm hover:bg-[#451C25] duration-300'>View Porjects</a>
           </div>
         </div>
 
@@ -65,7 +65,7 @@ const Home = () => {
               <button className='px-4 py-2 bg-[#301A1F] rounded-sm hover:bg-[#BA2649] duration-300'>Tailwind</button>
               <button className='px-4 py-2 bg-[#301A1F] rounded-sm hover:bg-[#BA2649] duration-300'>JavaScript</button>
             </div>
-            <a href="#" className='px-5 py-3 bg-[#301A1F] text-xl border border-[#BA2649] rounded-sm hover:bg-[black] duration-300'>View Porjects</a>
+            <a href="#" className='px-5 py-3 bg-[#301A1F] text-xl border border-[#BA2649] rounded-sm hover:bg-[#451C25] duration-300'>View Porjects</a>
           </div>
 
           <div id="project-image" className='w-[40%] p-10 flex justify-end items-center'>
@@ -89,6 +89,19 @@ const Home = () => {
           </div>
         </div>
       </div>
+
+
+      {/* Get In Touch  */}
+       <div className="Contact pb-30 px-30 w-[60%]">
+          <span className='uppercase text-l text-[#ff396d] font-semibold'>Get In Touch</span>
+          <h1 className='text-[40px] font-bold '>I'd love to hear from you.</h1>
+
+          <p className='text-md  text-[var(--secoundery-text)] my-10'>I'm currently looking for new opportunities. Send me a message by fancy saying hi if you need my help or would like to chat. I'll try my best to get back to you!</p>
+
+          <a href="#" className='text-md px-5 py-3 border-[var(--primary-text)] border-2 font-semibold bg-[#301A1F] hover:bg-[#451C25] text-[var(--secoundery-text)] rounded-sm'>Say Hello</a>
+
+          
+        </div>
     </div>
   )
 }

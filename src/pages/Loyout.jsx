@@ -4,7 +4,7 @@ import Home from './Home'
 import { Outlet } from 'react-router-dom'
 import Mail from '../components/Mail'
 import SocialIcons from '../components/SocialIcons'
-
+import Footer from '../components/Footer'
 const Loyout = () => {
     return (
         <>
@@ -17,6 +17,7 @@ const Loyout = () => {
             <div className="main-area h-[100vh] w-[calc(100vw-150px)]  ml-[100px] mr-[50px] bg-[var(--main-bg)]">
                 <Mail />
                 <Outlet />
+                <Footer />
             </div>
         </>
     )

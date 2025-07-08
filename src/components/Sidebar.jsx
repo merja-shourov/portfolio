@@ -11,18 +11,18 @@ const Sidebar = () => {
             <div className="logo w-[full] h-[100px]  flex flex-col justify-center items-center">
                 <h2 className='text-[20px] font-bold'>Merja.</h2>
             </div>
-            <ul className='text-sm border-white'>
-                <NavLink to='/' ><li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'> <FaHome />Home</li></NavLink>
+            <ul className='text-lg border-white'>
+                <NavLink to='/' ><li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'> <FaHome  className='text-3xl'/>Home</li></NavLink>
                 <NavLink to="works">
-                    <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'><AiFillAppstore />Works</li>
+                    <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'><AiFillAppstore className='text-3xl' />Works</li>
                 </NavLink>
 
                 <NavLink  to="contact">
-                    <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]' ><MdAddIcCall />Contact</li>
+                    <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]' ><MdAddIcCall  className='text-3xl' />Contact</li>
                 </NavLink>
 
                 <NavLink to="about">
-                    <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'> <CiCircleInfo />About</li>
+                    <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'> <CiCircleInfo className='text-3xl' />About</li>
                 </NavLink>
              
             </ul>

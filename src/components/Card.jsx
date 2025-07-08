@@ -17,7 +17,7 @@ const Card = () => {
                     <h2 className='text-[26px] font-semibold my-5'>Projct Management App</h2>
                     <p className='text-[var(--secoundery-text)] text-md'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nisi!</p>
                 </div>
-                <div className="buttons flex justfy-start items-center gap-2 flex-wrap my-5">
+                <div className="buttons flex justfy-start items-center gap-2 flex-wrap mt-10">
                     <Button buttonName={"MongoDB"} />
                     <Button buttonName={"React"} />
                     <Button buttonName={"NodeJS"} />
