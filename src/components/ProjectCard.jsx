@@ -13,7 +13,7 @@ const ProjectCard = () => {
 
             <div className="project-desc w-[60%] py-10 px-5">
                 <h2 className='title text-3xl font-bold mb-5 hover:text-[var(--primary-text)] duration-300'>Personal Website</h2>
-                <p className='details text-md text-[var(--secoundery-text)]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic eligendi quisquam ipsum quam. Odit, incidunt ea? Animi deserunt dolorem hic?</p>
+                <p className='details text-md text-[var(--secoundery-text)]'>My name is Merja Shourov, a web developer and designer from Bangladesh. This is my official personal website for my portfolios.</p>
                 <div className="skills flex flex-row justify-start items-center flex-wrap gap-2 mt-5 mb-10">
                     <SkillButton skillName={"React"} />
                     <SkillButton skillName={"NodeJs"} />

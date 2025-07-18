@@ -17,9 +17,9 @@ const Sidebar = () => {
                     <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'><AiFillAppstore className='text-3xl' />Works</li>
                 </NavLink>
 
-                <NavLink  to="contact">
+                {/* <NavLink  to="contact">
                     <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]' ><MdAddIcCall  className='text-3xl' />Contact</li>
-                </NavLink>
+                </NavLink> */}
 
                 <NavLink to="about">
                     <li className='flex justify-center items-center flex-col border-[#BB2649] border-x-4 p-4 hover:bg-[#C54664] hover:border-l-4 hover:border-[white]'> <CiCircleInfo className='text-3xl' />About</li>
@@ -27,10 +27,10 @@ const Sidebar = () => {
              
             </ul>
             <div className="resume-button text-center w-[100%] h-[100px]">
-                <a href='#' className='bg-[#C54664] border-[white] border-1 shadow-lg uppercase text-sm rounded-sm hover:bg-[#BB2649] px-2 py-1 '> Resume </a>
+                <a href='https://drive.google.com/file/d/1d4tu45U6IrRcasaxKxekUA0FFV092b_r/view?usp=sharing' target='_blank' className='bg-[#C54664] border-[white] border-1 shadow-lg uppercase text-sm  font-bold rounded-sm hover:bg-[#BB2649] px-2 py-1 '> Resume </a>
             </div>
         </div>
     )
-}
+}   
 
 export default Sidebar
