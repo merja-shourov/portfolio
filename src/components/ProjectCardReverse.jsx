@@ -1,13 +1,15 @@
 import React from 'react'
 import SkillButton from './SkillButton'
 import ClickButton from './ClickButton'
-const ProjectCardReverse = () => {
+
+
+const ProjectCardReverse = ({title, desc }) => {
     return (
         <div className='project-card px-30 py-20 bg-[var(--main-bg)] flex justify-center items-center gap-10'>
 
             <div className="project-desc w-[60%] py-10 px-5 text-right">
-                <h2 className='title text-4xl font-bold mb-5 hover:text-[var(--primary-text)] duration-300'>Personal Website</h2>
-                <p className='details text-md text-[var(--secoundery-text)]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic eligendi quisquam ipsum quam. Odit, incidunt ea? Animi deserunt dolorem hic?</p>
+                <h2 className='title text-4xl font-bold mb-5 hover:text-[var(--primary-text)] duration-300'>{title}</h2>
+                <p className='details text-md text-[var(--secoundery-text)]'>{desc}</p>
                 <div className="skills flex  justify-end items-center flex-wrap gap-2 mt-5 mb-10">
                     <SkillButton skillName={"React"} />
                     <SkillButton skillName={"NodeJs"} />

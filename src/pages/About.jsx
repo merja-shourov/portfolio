@@ -16,9 +16,7 @@ const About = () => {
         <div className="detail w-[70%]">
           <p className='text-sm font-bold text-[#FF396D] '>O1</p>
           <h2 className=' text-3xl font-bold mb-10 mt-2'>Profile</h2>
-          <p className=' text-l text-[var(--secoundery-text)] '>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus consequuntur ad maxime reprehenderit dolorum. <br />
-
-            nostrum aperiam aspernatur tenetur fugit? Necessitatibus obcaecati recusandae blanditiis voluptate. Ducimus repellendus eum atque dolores molestias amet adipisci modi nulla fuga eos! Facere culpa a incidunt.</p>
+          <p className=' text-l text-[var(--secoundery-text)] '>I’m a third-year undergraduate student and passionate full-stack developer with experience inbuilding dynamic web applications.I enjoy creating seamless user expeiences and solving complex problems through code.</p>
         </div>
       </div>
 
@@ -34,7 +32,13 @@ const About = () => {
           <p className='text-sm font-bold text-[#FF396D] '>O2</p>
           <h2 className=' text-3xl font-bold mb-10 mt-2'>Skills</h2>
           <div className="all-skill">
-            
+            <ul className='list-[square] px-10'>
+              <li>Html/CSS</li>
+              <li>Tailwind</li>
+              <li>ReactJS</li>
+              <li>NodeJS</li>
+              <li>MongoDB</li>
+            </ul>
           </div>
         </div>
       </div>
